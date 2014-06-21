@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LyricsViewController.h"
 
-@interface ViewController : UIViewController
+@interface PlayListViewController : UITableViewController
+
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end

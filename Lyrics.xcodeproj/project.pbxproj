@@ -13,14 +13,28 @@
 		EA06B6C7194CE39300F56AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA06B6C5194CE39300F56AFF /* InfoPlist.strings */; };
 		EA06B6C9194CE39300F56AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6C8194CE39300F56AFF /* main.m */; };
 		EA06B6CD194CE39300F56AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6CC194CE39300F56AFF /* AppDelegate.m */; };
-		EA06B6D0194CE39400F56AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA06B6CE194CE39400F56AFF /* Main.storyboard */; };
-		EA06B6D3194CE39400F56AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6D2194CE39400F56AFF /* ViewController.m */; };
+		EA06B6D3194CE39400F56AFF /* PlayListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6D2194CE39400F56AFF /* PlayListViewController.m */; };
 		EA06B6D5194CE39400F56AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA06B6D4194CE39400F56AFF /* Images.xcassets */; };
 		EA06B6DC194CE39400F56AFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA06B6DB194CE39400F56AFF /* XCTest.framework */; };
 		EA06B6DD194CE39400F56AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA06B6BC194CE39300F56AFF /* Foundation.framework */; };
 		EA06B6DE194CE39400F56AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA06B6C0194CE39300F56AFF /* UIKit.framework */; };
 		EA06B6E6194CE39400F56AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA06B6E4194CE39400F56AFF /* InfoPlist.strings */; };
 		EA06B6E8194CE39400F56AFF /* LyricsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6E7194CE39400F56AFF /* LyricsTests.m */; };
+		EA06B6F4194CEBF100F56AFF /* Lyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6F3194CEBF100F56AFF /* Lyrics.m */; };
+		EA06B6FB194CECB600F56AFF /* PlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6FA194CECB600F56AFF /* PlayList.m */; };
+		EA06B6FE194CF95100F56AFF /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B6FD194CF95100F56AFF /* CustomCell.m */; };
+		EA06B701194D772C00F56AFF /* PlayListDB.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B700194D772C00F56AFF /* PlayListDB.m */; };
+		EA06B70E194D778500F56AFF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B704194D778500F56AFF /* FMDatabase.m */; };
+		EA06B70F194D778500F56AFF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B706194D778500F56AFF /* FMDatabaseAdditions.m */; };
+		EA06B710194D778500F56AFF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B708194D778500F56AFF /* FMDatabasePool.m */; };
+		EA06B711194D778500F56AFF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B70A194D778500F56AFF /* FMDatabaseQueue.m */; };
+		EA06B712194D778500F56AFF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B70D194D778500F56AFF /* FMResultSet.m */; };
+		EA06B714194D94C300F56AFF /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA06B713194D94C300F56AFF /* libsqlite3.0.dylib */; };
+		EA06B717194DDFA700F56AFF /* LyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06B716194DDFA700F56AFF /* LyricsViewController.m */; };
+		EA31B2B2194F955900B659D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA31B2B1194F955900B659D2 /* QuartzCore.framework */; };
+		EA31B2B51950EAEE00B659D2 /* LyricsDB.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31B2B41950EAEE00B659D2 /* LyricsDB.m */; };
+		EA31B2B81952D81B00B659D2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31B2B71952D81B00B659D2 /* WebViewController.m */; };
+		EA31B2BE1953BF0300B659D2 /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31B2BD1953BF0300B659D2 /* URL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +58,43 @@
 		EA06B6CA194CE39300F56AFF /* Lyrics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyrics-Prefix.pch"; sourceTree = "<group>"; };
 		EA06B6CB194CE39300F56AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA06B6CC194CE39300F56AFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA06B6CF194CE39400F56AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA06B6D1194CE39400F56AFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA06B6D2194CE39400F56AFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA06B6D1194CE39400F56AFF /* PlayListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayListViewController.h; sourceTree = "<group>"; };
+		EA06B6D2194CE39400F56AFF /* PlayListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayListViewController.m; sourceTree = "<group>"; };
 		EA06B6D4194CE39400F56AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA06B6DA194CE39400F56AFF /* LyricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA06B6DB194CE39400F56AFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EA06B6E3194CE39400F56AFF /* LyricsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyricsTests-Info.plist"; sourceTree = "<group>"; };
 		EA06B6E5194CE39400F56AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA06B6E7194CE39400F56AFF /* LyricsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyricsTests.m; sourceTree = "<group>"; };
+		EA06B6F2194CEBF100F56AFF /* Lyrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lyrics.h; sourceTree = "<group>"; };
+		EA06B6F3194CEBF100F56AFF /* Lyrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lyrics.m; sourceTree = "<group>"; };
+		EA06B6F9194CECB600F56AFF /* PlayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayList.h; sourceTree = "<group>"; };
+		EA06B6FA194CECB600F56AFF /* PlayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayList.m; sourceTree = "<group>"; };
+		EA06B6FC194CF95100F56AFF /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		EA06B6FD194CF95100F56AFF /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		EA06B6FF194D772C00F56AFF /* PlayListDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayListDB.h; sourceTree = "<group>"; };
+		EA06B700194D772C00F56AFF /* PlayListDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayListDB.m; sourceTree = "<group>"; };
+		EA06B703194D778500F56AFF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EA06B704194D778500F56AFF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EA06B705194D778500F56AFF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EA06B706194D778500F56AFF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EA06B707194D778500F56AFF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EA06B708194D778500F56AFF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EA06B709194D778500F56AFF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EA06B70A194D778500F56AFF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EA06B70B194D778500F56AFF /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EA06B70C194D778500F56AFF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EA06B70D194D778500F56AFF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EA06B713194D94C300F56AFF /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		EA06B715194DDFA700F56AFF /* LyricsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsViewController.h; sourceTree = "<group>"; };
+		EA06B716194DDFA700F56AFF /* LyricsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsViewController.m; sourceTree = "<group>"; };
+		EA31B2B1194F955900B659D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA31B2B31950EAEE00B659D2 /* LyricsDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsDB.h; sourceTree = "<group>"; };
+		EA31B2B41950EAEE00B659D2 /* LyricsDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsDB.m; sourceTree = "<group>"; };
+		EA31B2B61952D81B00B659D2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		EA31B2B71952D81B00B659D2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EA31B2BC1953BF0300B659D2 /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		EA31B2BD1953BF0300B659D2 /* URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA31B2B2194F955900B659D2 /* QuartzCore.framework in Frameworks */,
+				EA06B714194D94C300F56AFF /* libsqlite3.0.dylib in Frameworks */,
 				EA06B6BF194CE39300F56AFF /* CoreGraphics.framework in Frameworks */,
 				EA06B6C1194CE39300F56AFF /* UIKit.framework in Frameworks */,
 				EA06B6BD194CE39300F56AFF /* Foundation.framework in Frameworks */,
@@ -101,6 +145,8 @@
 		EA06B6BB194CE39300F56AFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA31B2B1194F955900B659D2 /* QuartzCore.framework */,
+				EA06B713194D94C300F56AFF /* libsqlite3.0.dylib */,
 				EA06B6BC194CE39300F56AFF /* Foundation.framework */,
 				EA06B6BE194CE39300F56AFF /* CoreGraphics.framework */,
 				EA06B6C0194CE39300F56AFF /* UIKit.framework */,
@@ -112,11 +158,12 @@
 		EA06B6C2194CE39300F56AFF /* Lyrics */ = {
 			isa = PBXGroup;
 			children = (
+				EA06B702194D778500F56AFF /* lib */,
+				EA06B6F7194CEC3700F56AFF /* Models */,
+				EA06B6F8194CEC5600F56AFF /* Views */,
+				EA06B6F1194CE9BF00F56AFF /* Controllers */,
 				EA06B6CB194CE39300F56AFF /* AppDelegate.h */,
 				EA06B6CC194CE39300F56AFF /* AppDelegate.m */,
-				EA06B6CE194CE39400F56AFF /* Main.storyboard */,
-				EA06B6D1194CE39400F56AFF /* ViewController.h */,
-				EA06B6D2194CE39400F56AFF /* ViewController.m */,
 				EA06B6D4194CE39400F56AFF /* Images.xcassets */,
 				EA06B6C3194CE39300F56AFF /* Supporting Files */,
 			);
@@ -150,6 +197,63 @@
 				EA06B6E4194CE39400F56AFF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA06B6F1194CE9BF00F56AFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA06B6D1194CE39400F56AFF /* PlayListViewController.h */,
+				EA06B6D2194CE39400F56AFF /* PlayListViewController.m */,
+				EA06B715194DDFA700F56AFF /* LyricsViewController.h */,
+				EA06B716194DDFA700F56AFF /* LyricsViewController.m */,
+				EA31B2B61952D81B00B659D2 /* WebViewController.h */,
+				EA31B2B71952D81B00B659D2 /* WebViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EA06B6F7194CEC3700F56AFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA06B6F2194CEBF100F56AFF /* Lyrics.h */,
+				EA06B6F3194CEBF100F56AFF /* Lyrics.m */,
+				EA06B6F9194CECB600F56AFF /* PlayList.h */,
+				EA06B6FA194CECB600F56AFF /* PlayList.m */,
+				EA31B2BC1953BF0300B659D2 /* URL.h */,
+				EA31B2BD1953BF0300B659D2 /* URL.m */,
+				EA06B6FF194D772C00F56AFF /* PlayListDB.h */,
+				EA06B700194D772C00F56AFF /* PlayListDB.m */,
+				EA31B2B31950EAEE00B659D2 /* LyricsDB.h */,
+				EA31B2B41950EAEE00B659D2 /* LyricsDB.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EA06B6F8194CEC5600F56AFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA06B6FC194CF95100F56AFF /* CustomCell.h */,
+				EA06B6FD194CF95100F56AFF /* CustomCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EA06B702194D778500F56AFF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EA06B703194D778500F56AFF /* FMDatabase.h */,
+				EA06B704194D778500F56AFF /* FMDatabase.m */,
+				EA06B705194D778500F56AFF /* FMDatabaseAdditions.h */,
+				EA06B706194D778500F56AFF /* FMDatabaseAdditions.m */,
+				EA06B707194D778500F56AFF /* FMDatabasePool.h */,
+				EA06B708194D778500F56AFF /* FMDatabasePool.m */,
+				EA06B709194D778500F56AFF /* FMDatabaseQueue.h */,
+				EA06B70A194D778500F56AFF /* FMDatabaseQueue.m */,
+				EA06B70B194D778500F56AFF /* FMDB.h */,
+				EA06B70C194D778500F56AFF /* FMResultSet.h */,
+				EA06B70D194D778500F56AFF /* FMResultSet.m */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +334,6 @@
 			files = (
 				EA06B6D5194CE39400F56AFF /* Images.xcassets in Resources */,
 				EA06B6C7194CE39300F56AFF /* InfoPlist.strings in Resources */,
-				EA06B6D0194CE39400F56AFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +352,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA06B6D3194CE39400F56AFF /* ViewController.m in Sources */,
+				EA06B6D3194CE39400F56AFF /* PlayListViewController.m in Sources */,
+				EA31B2B81952D81B00B659D2 /* WebViewController.m in Sources */,
+				EA06B6F4194CEBF100F56AFF /* Lyrics.m in Sources */,
+				EA06B6FE194CF95100F56AFF /* CustomCell.m in Sources */,
 				EA06B6CD194CE39300F56AFF /* AppDelegate.m in Sources */,
 				EA06B6C9194CE39300F56AFF /* main.m in Sources */,
+				EA06B70F194D778500F56AFF /* FMDatabaseAdditions.m in Sources */,
+				EA06B712194D778500F56AFF /* FMResultSet.m in Sources */,
+				EA06B6FB194CECB600F56AFF /* PlayList.m in Sources */,
+				EA06B710194D778500F56AFF /* FMDatabasePool.m in Sources */,
+				EA31B2B51950EAEE00B659D2 /* LyricsDB.m in Sources */,
+				EA06B711194D778500F56AFF /* FMDatabaseQueue.m in Sources */,
+				EA06B717194DDFA700F56AFF /* LyricsViewController.m in Sources */,
+				EA06B701194D772C00F56AFF /* PlayListDB.m in Sources */,
+				EA31B2BE1953BF0300B659D2 /* URL.m in Sources */,
+				EA06B70E194D778500F56AFF /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +396,6 @@
 				EA06B6C6194CE39300F56AFF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EA06B6CE194CE39400F56AFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA06B6CF194CE39400F56AFF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		EA06B6E4194CE39400F56AFF /* InfoPlist.strings */ = {
@@ -456,6 +564,7 @@
 				EA06B6ED194CE39400F56AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA06B6EE194CE39400F56AFF /* Build configuration list for PBXNativeTarget "LyricsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +573,7 @@
 				EA06B6F0194CE39400F56AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
